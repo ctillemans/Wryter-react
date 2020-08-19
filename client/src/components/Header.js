@@ -5,8 +5,9 @@ import '../Styles/main.scss';
 const Header = () => {
   return (
     <>
-      <div className='section__header'>
+      <div className='section__header Hero-1'>
         <div className='header'>
+          <div className='header__shadow'></div>
           <div className='header__content-wrapper'>
             <h1 className='header__title'>Wryter</h1>
             <p className='header__description'>
