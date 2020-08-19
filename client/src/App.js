@@ -1,11 +1,14 @@
 import React from 'react';
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import Landing from './pages/Landing';
+import WryterApp from './pages/WryterApp';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Wryter</h1>
-    </div>
+    <Switch>
+      <Route exact path='/' component={Landing} />
+      <Route path='/write' component={WryterApp} />
+    </Switch>
   );
 }
 
