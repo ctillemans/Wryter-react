@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Styles/main.scss';
 
 const Header = () => {
   return (
@@ -9,7 +8,10 @@ const Header = () => {
         <div className='header'>
           <div className='header__shadow'></div>
           <div className='header__content-wrapper'>
-            <h1 className='header__title'>Wryter</h1>
+            <h1 className='header__title'>
+              Wryter
+              <span className='logo-period'>.</span>
+            </h1>
             <p className='header__description'>
               There is nothing more exciting than a blank page
             </p>

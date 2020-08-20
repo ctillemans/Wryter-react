@@ -1,6 +1,11 @@
-@import './Layout/header.scss';
-
-body {
+@import './Layout/_header.scss';
+@import './Components/_InfoCards.scss';
+@import './Components/blockQuote';
+@import './Layout/footer';
+* {
   box-sizing: border-box;
+}
+body {
+  background: #d0cfcf;
   margin: 0px;
 }
