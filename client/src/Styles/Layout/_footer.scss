@@ -42,6 +42,9 @@
         left: 0;
       }
       & input {
+        height: 30px;
+        font-size: 1rem;
+        text-align: center;
         width: 100%;
         outline: none;
         background-color: transparent;
@@ -51,6 +54,7 @@
     }
   }
   .copyright {
+    width: 100%;
     text-align: center;
     color: white;
     margin: 0 auto;

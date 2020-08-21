@@ -1,0 +1,12 @@
+.unsplash-container {
+  height: 100vh;
+  display: flex;
+  overflow: visible;
+  .unsplash-image {
+    flex: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  }
+}

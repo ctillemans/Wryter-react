@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <>
-      <div className='section__header Hero-1'>
-        <div className='header'>
-          <div className='header__shadow'></div>
-          <div className='header__content-wrapper'>
-            <h1 className='header__title'>
+      <div className='section__hero Hero-1'>
+        <div className='hero'>
+          <div className='hero__shadow'></div>
+          <div className='hero__content-wrapper'>
+            <h1 className='hero__title'>
               Wryter
               <span className='logo-period'>.</span>
             </h1>
-            <p className='header__description'>
+            <p className='hero__description'>
               There is nothing more exciting than a blank page
             </p>
             {/* TODO make link button class that takes props */}
-            <div className='button header__button'>
+            <div className='button hero__button'>
               <Link to='/write'>Get Started</Link>
             </div>
           </div>

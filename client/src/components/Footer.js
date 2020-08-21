@@ -8,13 +8,19 @@ const Footer = () => {
         <ul className='footer__list list'>
           <h2>More Info</h2>
           <li className='list__item'>
-            <Link style={{ textDecoration: 'none' }}>About</Link>
+            <Link to='#' style={{ textDecoration: 'none' }}>
+              About
+            </Link>
           </li>
           <li className='list__item'>
-            <Link style={{ textDecoration: 'none' }}>Contact</Link>
+            <Link to='#' style={{ textDecoration: 'none' }}>
+              Contact
+            </Link>
           </li>
           <li className='list__item'>
-            <Link style={{ textDecoration: 'none' }}>FAQ</Link>
+            <Link to='#' style={{ textDecoration: 'none' }}>
+              FAQ
+            </Link>
           </li>
           <li className='list__item'>
             <a style={{ textDecoration: 'none' }}>Github</a>
@@ -23,13 +29,19 @@ const Footer = () => {
         <ul className='footer__list list'>
           <h2>Resources</h2>
           <li className='list__item'>
-            <Link style={{ textDecoration: 'none' }}>About</Link>
+            <Link to='#' style={{ textDecoration: 'none' }}>
+              About
+            </Link>
           </li>
           <li className='list__item'>
-            <Link style={{ textDecoration: 'none' }}>Contact</Link>
+            <Link to='#' style={{ textDecoration: 'none' }}>
+              Contact
+            </Link>
           </li>
           <li className='list__item'>
-            <Link style={{ textDecoration: 'none' }}>FAQ</Link>
+            <Link to='#' style={{ textDecoration: 'none' }}>
+              FAQ
+            </Link>
           </li>
           <li className='list__item'>
             <a style={{ textDecoration: 'none' }}>Github</a>
@@ -37,10 +49,14 @@ const Footer = () => {
         </ul>
         <div className='subscribe'>
           <div className='subscribe__content'>
-            <h2 classname='subscribe__title'>Subscribe</h2>
+            <h2 className='subscribe__title'>Subscribe</h2>
             <div className='subscribe__input input'>
               <label htmlFor='email-subscription'>
-                <input type='email' name='email-subscription' />
+                <input
+                  type='email'
+                  name='email-subscription'
+                  placeholder='Email'
+                />
                 Email
               </label>
             </div>

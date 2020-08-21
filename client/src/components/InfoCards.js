@@ -12,7 +12,7 @@ const InfoCards = () => {
     <div className='container-full'>
       <div className='info-cards'>
         {captions.map((caption, i) => (
-          <InfoCard img={images[i]} caption={caption} />
+          <InfoCard img={images[i]} key={caption[i]} caption={caption} />
         ))}
       </div>
     </div>
