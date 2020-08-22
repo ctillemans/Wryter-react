@@ -17,7 +17,7 @@ const Header = () => {
             </p>
             {/* TODO make link button class that takes props */}
             <div className='button hero__button'>
-              <Link to='/write'>Get Started</Link>
+              <a href='/write'>Get Started</a>
             </div>
           </div>
         </div>

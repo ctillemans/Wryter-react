@@ -1,0 +1,22 @@
+.wryterbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  &__dashboard {
+  }
+
+  &__text {
+    width: 75vw;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'serif';
+  }
+}

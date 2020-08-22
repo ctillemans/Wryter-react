@@ -1,12 +1,13 @@
 .unsplash-container {
+  margin-top: 50px;
+
+  display: block;
   height: 100vh;
-  display: flex;
-  overflow: visible;
+  overflow: hidden;
   .unsplash-image {
-    flex: 1;
-    min-width: 100%;
+    width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    object-fit: cover;
+    // height: auto;
   }
 }

@@ -13,7 +13,6 @@ class Landing extends Component {
         <Header />
         <InfoCards />
         <BlockQuote quote={landingQuote} />
-        <Footer />
       </>
     );
   }

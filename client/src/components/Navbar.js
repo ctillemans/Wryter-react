@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [navState, setNavState] = useState('collapsed');
@@ -13,7 +14,9 @@ const Navbar = () => {
         }`}
       >
         <div className='header'>
-          <h1 className='header__logo'>Wryter</h1>
+          <Link to='/'>
+            <h1 className='header__logo'>Wryter</h1>
+          </Link>
           <div
             className={`header__hamburger ${
               navState === 'collapsed' ? '' : 'header__hamburger--expanded'
@@ -32,10 +35,16 @@ const Navbar = () => {
         }`}
       >
         <ul className='navlist custom-list'>
-          <li className='navlist__item '>First Item</li>
-          <li className='navlist__item '>First Item</li>
-          <li className='navlist__item '>First Item</li>
-          <li className='navlist__item '>First Item</li>
+          <li className='navlist__item '>
+            <Link exact to='/' onClick={toggleNav}>
+              Home
+            </Link>
+          </li>
+          <li className='navlist__item '>
+            <Link exact to='/login' onClick={toggleNav}>
+              Login
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

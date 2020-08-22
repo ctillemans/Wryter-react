@@ -4,11 +4,17 @@
 @import './Layout/footer';
 @import './Layout/navbar';
 @import './Components/unsplash';
+@import './Components/wryterbox';
+@import './Components/wryterApp';
 
 * {
   box-sizing: border-box;
 }
 body {
-  background: #d0cfcf;
+  background: black;
   margin: 0px;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
